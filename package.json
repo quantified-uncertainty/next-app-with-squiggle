@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/loader": "^2.1.2",
+    "@mdx-js/react": "^2.1.2",
+    "@next/mdx": "^12.2.3",
+    "@quri/squiggle-components": "^0.2.24",
     "next": "12.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "rehype-mathjax": "^4.0.2",
+    "remark-math": "^5.1.1"
   },
   "devDependencies": {
     "@types/node": "18.6.3",

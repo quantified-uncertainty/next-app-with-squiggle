@@ -1,0 +1,3 @@
+bar(t, u) = normal(t, u)
+ski = mixture(1, 2, 3, [0.2, 0.4, 0.8])
+foo = {bar: bar}

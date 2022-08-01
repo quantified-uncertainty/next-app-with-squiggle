@@ -1,0 +1,18 @@
+import { DynamicSquiggleEditorWithImportedBindings as SquiggleEditor } from "../components/DynamicSquiggleEditorWithImportedBindings"
+
+# Squiggle demonstration
+
+We can enter in arbitrary, live squiggle code in the `defaultCode` argument of our `SquiggleEditor` component. 
+
+<SquiggleEditor defaultCode={`
+x = 1 to 2
+y = {a: x, b: 1e1} 
+f(t) = normal(t, 1.1)
+z = y.b * y.a
+f(z)`} /> 
+
+We can also import assignments from files that live in `/public/estimates/` of the repo. 
+
+<SquiggleEditor defaultCode="foo.bar(beta(1,2), ski)" bindingsImportUrl="/estimates/baz.squiggle" />
+
+Files you import for bindings have to consist only of assignments: they cannot end in an expression, unless that expression is a record. 
