@@ -11,7 +11,7 @@
     "@mdx-js/react": "^2.1.2",
     "@next/mdx": "^12.2.4",
     "@quri/squiggle-components": "^0.2.24",
-    "next": "12.2.3",
+    "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "rehype-mathjax": "^4.0.2",
