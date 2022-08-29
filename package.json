@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@mdx-js/loader": "^2.1.2",
-    "@mdx-js/react": "^2.1.2",
+    "@mdx-js/react": "^2.1.3",
     "@next/mdx": "^12.2.5",
     "@quri/squiggle-components": "^0.2.24",
     "next": "12.2.5",
