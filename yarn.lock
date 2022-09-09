@@ -56,10 +56,10 @@
   dependencies:
     "@floating-ui/core" "^1.0.1"
 
-"@floating-ui/react-dom-interactions@^0.9.1":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@floating-ui/react-dom-interactions/-/react-dom-interactions-0.9.2.tgz#9a364cc44ecbc242b5218dff0e0d071de115e13a"
-  integrity sha512-1I0urs4jlGuo4FRukvjtMmdUwxqvgwtTlESEPVwEvFGHXVh1PKkKaPZJ0Dcp9B8DQt4ewQEbwJxsoker2pDYTQ==
+"@floating-ui/react-dom-interactions@^0.9.3":
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/@floating-ui/react-dom-interactions/-/react-dom-interactions-0.9.3.tgz#4d4d81664066ac36980e50691aa90b1d40667949"
+  integrity sha512-oHwFLxySRtmhgwg7ZdWswvDDi+ld4mEtxu6ngOd7mRC5L1Rk6adjSfOBOHDxea+ItAWmds8m6A725sn1HQtUyQ==
   dependencies:
     "@floating-ui/react-dom" "^1.0.0"
     aria-hidden "^1.1.3"
@@ -324,42 +324,42 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@quri/squiggle-components@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@quri/squiggle-components/-/squiggle-components-0.3.1.tgz#9cdfc92c09d4a2dd4a3f5a0e91d5f7fe55ad9cf3"
-  integrity sha512-m/kX0QG3almOyneUyaYr9lA2S6i5//oi/hRXHMTrBNVNfXTAgfz0tOqXgPh3LNQFtKmq1ofQDxtjBEqaN+HiaA==
+"@quri/squiggle-components@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@quri/squiggle-components/-/squiggle-components-0.4.1.tgz#9abf7fad398cd4238a8942414004d8e2e77107ab"
+  integrity sha512-v2b4S6horPjzMjFH/yguzF+4ZPOsKiIghpmzSPQBbL7QYsvUEHp06zyDknaZ85Feq0CahXsOEjmWDiE3bpMZDw==
   dependencies:
     "@floating-ui/react-dom" "^1.0.0"
-    "@floating-ui/react-dom-interactions" "^0.9.1"
+    "@floating-ui/react-dom-interactions" "^0.9.3"
     "@headlessui/react" "^1.6.6"
     "@heroicons/react" "^1.0.6"
     "@hookform/resolvers" "^2.9.7"
-    "@quri/squiggle-lang" "^0.3.0"
+    "@quri/squiggle-lang" "^0.4.1"
     "@react-hook/size" "^2.1.2"
     clsx "^1.2.1"
-    framer-motion "^7.0.0"
+    framer-motion "^7.2.1"
     lodash "^4.17.21"
     react "^18.1.0"
     react-ace "^10.1.0"
-    react-hook-form "^7.34.0"
+    react-hook-form "^7.34.2"
     react-use "^17.4.0"
     react-vega "^7.6.0"
     vega "^5.22.1"
     vega-embed "^6.21.0"
-    vega-lite "^5.4.0"
+    vega-lite "^5.5.0"
     vscode-uri "^3.0.3"
     yup "^0.32.11"
 
-"@quri/squiggle-lang@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@quri/squiggle-lang/-/squiggle-lang-0.3.0.tgz#e80bf628cdeb73934edc688e55c71014101bc2fe"
-  integrity sha512-GNaDAHDdqxnC2jGPqlCbbbIVZIr3RpurKw5qfIIfNrdxmaMHoM8alvmmIZ3JPLZrzGZZPrI7BRuZGKclGPzzqA==
+"@quri/squiggle-lang@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@quri/squiggle-lang/-/squiggle-lang-0.4.1.tgz#f4a47bc2903dbbccf2ea5e1ef076516c2be3dfc1"
+  integrity sha512-RpafsSqS8Bqxoo4/qE4zgsTGgfYxwvxV0qHlIi4x/Ooyy1XdOjpcV9oDOvJMAgZ4ZYQJzmqCwjAg565CWbH7Yw==
   dependencies:
     "@rescript/std" "^9.1.4"
     "@stdlib/stats" "^0.0.13"
     jstat "^1.9.5"
     lodash "^4.17.21"
-    mathjs "^11.0.1"
+    mathjs "^11.1.0"
     pdfast "^0.2.0"
 
 "@react-hook/latest@^1.0.2":
@@ -1467,6 +1467,11 @@ decimal.js@^10.3.1:
   resolved "https://registry.yarnpkg.com/decimal.js/-/decimal.js-10.3.1.tgz#d8c3a444a9c6774ba60ca6ad7261c3a94fd5e783"
   integrity sha512-V0pfhfr8suzyPGOx3nmq4aHqabehUZn6Ch9kyFpV79TGDTWFmHqUqXdabR7QHqxzrYolF4+tVmJhUG4OURg5dQ==
 
+decimal.js@^10.4.0:
+  version "10.4.0"
+  resolved "https://registry.yarnpkg.com/decimal.js/-/decimal.js-10.4.0.tgz#97a7448873b01e92e5ff9117d89a7bca8e63e0fe"
+  integrity sha512-Nv6ENEzyPQ6AItkGwLE2PGKinZZ9g59vSh2BeH6NqPu0OTKZ5ruJsVqh/orbAnqXc9pBbgXAIrc2EyaCj8NpGg==
+
 decode-named-character-reference@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/decode-named-character-reference/-/decode-named-character-reference-1.0.2.tgz#daabac9690874c394c81e4162a0304b35d824f0e"
@@ -1992,10 +1997,10 @@ fraction.js@^4.2.0:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
-framer-motion@^7.0.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-7.2.0.tgz#1abc8090e185eaac8a3b3729e2529154d2edcb17"
-  integrity sha512-D24ZHtbtdpiaByamNYiVXafVU6JfBxjrVlR1beyNupJL80haaDE23xS4dR0b/Qb64frtw/Mpdd9VYwSCv+UtSw==
+framer-motion@^7.2.1:
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-7.3.2.tgz#9768092cd98cf0ebaf70864f1248f2e703305a15"
+  integrity sha512-BTG0BqJSwxoFBWpwaaxS/954DGZFsluF+dUv9Hfq53VNkwUt5g+wYTEM66oTUhiH/+6R/y0Rq+BmkUBcmzbyMQ==
   dependencies:
     "@motionone/dom" "10.13.1"
     framesync "6.1.2"
@@ -2698,20 +2703,20 @@ mathjax-full@^3.0.0:
     mj-context-menu "^0.6.1"
     speech-rule-engine "^4.0.6"
 
-mathjs@^11.0.1:
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/mathjs/-/mathjs-11.0.1.tgz#7fb5150ef8c427f8bcddba52a084a3d8bffda7ea"
-  integrity sha512-Kgm+GcTxwD68zupr7BPK0yrlWpTh2q8sMH6VcBcQe5+JCBqcwOrBxBF11WPah7hVv0NCLDnJnFTiXtik1Phasg==
+mathjs@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/mathjs/-/mathjs-11.1.0.tgz#501fc1b8d66155442ce7762bf04469168d38587c"
+  integrity sha512-cbsEruLNoIlj5h5vOF+DUQVe4EsA/WNomSQDMnX2WafX9TLneBSCRMx2okgGnSLzLoMGWQ211KVzY55bEnQa8Q==
   dependencies:
     "@babel/runtime" "^7.18.9"
     complex.js "^2.1.1"
-    decimal.js "^10.3.1"
+    decimal.js "^10.4.0"
     escape-latex "^1.2.0"
     fraction.js "^4.2.0"
     javascript-natural-sort "^0.7.1"
     seedrandom "^3.0.5"
     tiny-emitter "^2.1.0"
-    typed-function "^3.0.0"
+    typed-function "^4.1.0"
 
 mdast-util-definitions@^5.0.0:
   version "5.1.1"
@@ -3563,7 +3568,7 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-hook-form@^7.34.0:
+react-hook-form@^7.34.2:
   version "7.34.2"
   resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.34.2.tgz#9ac6d1a309a7c4aaa369d1269357a70e9e9bf4de"
   integrity sha512-1lYWbEqr0GW7HHUjMScXMidGvV0BE2RJV3ap2BL7G0EJirkqpccTaawbsvBO8GZaB3JjCeFBEbnEWI1P8ZoLRQ==
@@ -4156,10 +4161,10 @@ type-fest@^0.20.2:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.20.2.tgz#1bf207f4b28f91583666cb5fbd327887301cd5f4"
   integrity sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
 
-typed-function@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/typed-function/-/typed-function-3.0.0.tgz#42f75ffdd7dd63bf5dcc950847138f2bb65f1ad3"
-  integrity sha512-mKJKkt2xYxJUuMD7jyfgUxfn5KCsCxkEKBVjep5yYellJJ5aEDO2QUAmIGdvcZmfQnIrplkzELIaG+5b1475qg==
+typed-function@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/typed-function/-/typed-function-4.1.0.tgz#da4bdd8a6d19a89e22732f75e4a410860aaf9712"
+  integrity sha512-DGwUl6cioBW5gw2L+6SMupGwH/kZOqivy17E4nsh1JI9fKF87orMmlQx3KISQPmg3sfnOUGlwVkroosvgddrlg==
 
 typescript@4.8.2:
   version "4.8.2"
@@ -4428,7 +4433,7 @@ vega-label@~1.2.0:
     vega-scenegraph "^4.9.2"
     vega-util "^1.15.2"
 
-vega-lite@^5.4.0:
+vega-lite@^5.5.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/vega-lite/-/vega-lite-5.5.0.tgz#07345713d538cd63278748ec119c261722be66ff"
   integrity sha512-MQBJt/iaUegvhRTS/hZVWfMOSF5ai4awlR2qtwTgHd84bErf9v7GtaZ9ArhJqXCb+FizvZ2jatmoYCzovgAhkg==
