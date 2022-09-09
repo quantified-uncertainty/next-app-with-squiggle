@@ -1,4 +1,4 @@
-import { DynamicSquiggleEditorWithImportedBindings as SquiggleEditor } from "../components/DynamicSquiggleEditorWithImportedBindings"
+import { DynamicSquiggleEditor as SquiggleEditor } from "../components/DynamicSquiggleEditor"
 
 # Squiggle demonstration
 
@@ -13,6 +13,10 @@ f(z)`} />
 
 We can also import assignments from files that live in `/public/estimates/` of the repo. 
 
-<SquiggleEditor defaultCode="foo.bar(beta(1,2), ski)" bindingsImportUrl="/estimates/baz.squiggle" />
+<SquiggleEditor 
+    defaultCode={`
+@import(estimates/baz.squiggle, baz)
+baz.foo.bar(beta(1,2), baz.ski)`}
+/>
 
 Files you import for bindings have to consist only of assignments: they cannot end in an expression, unless that expression is a record. 
