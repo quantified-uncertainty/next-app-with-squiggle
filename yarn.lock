@@ -17,6 +17,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.19.0":
+  version "7.19.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.19.0.tgz#22b11c037b094d27a8a2504ea4dcff00f50e2259"
+  integrity sha512-eR8Lo9hnDS7tqkO7NsV+mKvCmv5boaXFSZ70DnfhcgiEne8hv9oCEd36Klw74EtizEqLsy4YnW8UWwpBVolHZA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@emotion/is-prop-valid@^0.8.2":
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
@@ -81,10 +88,10 @@
   resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-1.0.6.tgz#35dd26987228b39ef2316db3b1245c42eb19e324"
   integrity sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==
 
-"@hookform/resolvers@^2.9.7":
-  version "2.9.7"
-  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.9.7.tgz#8b257ae67234ce0270e6b044c1a61fb98ec02b4b"
-  integrity sha512-BloehX3MOLwuFEwT4yZnmolPjVmqyn8VsSuodLfazbCIqxBHsQ4qUZsi+bvNNCduRli1AGWFrkDLGD5QoNzsoA==
+"@hookform/resolvers@^2.9.8":
+  version "2.9.8"
+  resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.9.8.tgz#9af51d15602f3c6e3249714712d8275564e65b72"
+  integrity sha512-iVVjH0USq+1TqDdGkWe2M1x7Wn5OFPgVRo7CbWFsXTqqXqCaZtZcnzJu+UhljCWbthFWxWGXKLGYUDPZ04oVvQ==
 
 "@humanwhocodes/config-array@^0.10.4":
   version "0.10.4"
@@ -324,24 +331,24 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@quri/squiggle-components@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@quri/squiggle-components/-/squiggle-components-0.4.1.tgz#9abf7fad398cd4238a8942414004d8e2e77107ab"
-  integrity sha512-v2b4S6horPjzMjFH/yguzF+4ZPOsKiIghpmzSPQBbL7QYsvUEHp06zyDknaZ85Feq0CahXsOEjmWDiE3bpMZDw==
+"@quri/squiggle-components@^0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@quri/squiggle-components/-/squiggle-components-0.4.3.tgz#69ab970f48905e69230619e071480b15c3353eca"
+  integrity sha512-/3OvHFUzaCD+/KC5b9fwuvfqgmtEDhyxuSo+xaMFHD3AHxkbmTXTDY1ol2qzyfoI7bwhMOnY9Zj7kEnssEOv/g==
   dependencies:
     "@floating-ui/react-dom" "^1.0.0"
     "@floating-ui/react-dom-interactions" "^0.9.3"
     "@headlessui/react" "^1.6.6"
     "@heroicons/react" "^1.0.6"
-    "@hookform/resolvers" "^2.9.7"
-    "@quri/squiggle-lang" "^0.4.1"
+    "@hookform/resolvers" "^2.9.8"
+    "@quri/squiggle-lang" "^0.4.2"
     "@react-hook/size" "^2.1.2"
     clsx "^1.2.1"
-    framer-motion "^7.2.1"
+    framer-motion "^7.3.2"
     lodash "^4.17.21"
     react "^18.1.0"
     react-ace "^10.1.0"
-    react-hook-form "^7.34.2"
+    react-hook-form "^7.35.0"
     react-use "^17.4.0"
     react-vega "^7.6.0"
     vega "^5.22.1"
@@ -350,16 +357,16 @@
     vscode-uri "^3.0.3"
     yup "^0.32.11"
 
-"@quri/squiggle-lang@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@quri/squiggle-lang/-/squiggle-lang-0.4.1.tgz#f4a47bc2903dbbccf2ea5e1ef076516c2be3dfc1"
-  integrity sha512-RpafsSqS8Bqxoo4/qE4zgsTGgfYxwvxV0qHlIi4x/Ooyy1XdOjpcV9oDOvJMAgZ4ZYQJzmqCwjAg565CWbH7Yw==
+"@quri/squiggle-lang@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@quri/squiggle-lang/-/squiggle-lang-0.4.2.tgz#d8c40bab69607fd4c34c3dfd9d703550a675585e"
+  integrity sha512-AgEZfnXspZoHkr90YQLfs1WaKDxQnaEOTs3011Kq3RPeptPzRoGCqSQ4HMOSfxfcDyREVimpNa+dtotboYPmeQ==
   dependencies:
     "@rescript/std" "^9.1.4"
     "@stdlib/stats" "^0.0.13"
     jstat "^1.9.5"
     lodash "^4.17.21"
-    mathjs "^11.1.0"
+    mathjs "^11.2.0"
     pdfast "^0.2.0"
 
 "@react-hook/latest@^1.0.2":
@@ -1997,10 +2004,10 @@ fraction.js@^4.2.0:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
-framer-motion@^7.2.1:
-  version "7.3.2"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-7.3.2.tgz#9768092cd98cf0ebaf70864f1248f2e703305a15"
-  integrity sha512-BTG0BqJSwxoFBWpwaaxS/954DGZFsluF+dUv9Hfq53VNkwUt5g+wYTEM66oTUhiH/+6R/y0Rq+BmkUBcmzbyMQ==
+framer-motion@^7.3.2:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-7.5.1.tgz#a21d9218999f3f271b39ca6f693093b54465c0f5"
+  integrity sha512-shqLAFgYT7QMVomusesPurlq9pQGLO64PTbWdQPkMg2cHmxI0ISG9BajGY3krg56yhBMI7QP/3u54bs/To0mOA==
   dependencies:
     "@motionone/dom" "10.13.1"
     framesync "6.1.2"
@@ -2703,12 +2710,12 @@ mathjax-full@^3.0.0:
     mj-context-menu "^0.6.1"
     speech-rule-engine "^4.0.6"
 
-mathjs@^11.1.0:
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/mathjs/-/mathjs-11.1.0.tgz#501fc1b8d66155442ce7762bf04469168d38587c"
-  integrity sha512-cbsEruLNoIlj5h5vOF+DUQVe4EsA/WNomSQDMnX2WafX9TLneBSCRMx2okgGnSLzLoMGWQ211KVzY55bEnQa8Q==
+mathjs@^11.2.0:
+  version "11.2.1"
+  resolved "https://registry.yarnpkg.com/mathjs/-/mathjs-11.2.1.tgz#725d2e769eb036214530ff532cea4a464efdc75e"
+  integrity sha512-V5lqIPExHtFi56LUf0Gyz0wyuJmSbXUM3liZcCDNpj4OKQaUlpQuAymC8x9mFNqajWOgxqS1HZ7Z5B76Hbwrtw==
   dependencies:
-    "@babel/runtime" "^7.18.9"
+    "@babel/runtime" "^7.19.0"
     complex.js "^2.1.1"
     decimal.js "^10.4.0"
     escape-latex "^1.2.0"
@@ -3568,10 +3575,10 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-hook-form@^7.34.2:
-  version "7.34.2"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.34.2.tgz#9ac6d1a309a7c4aaa369d1269357a70e9e9bf4de"
-  integrity sha512-1lYWbEqr0GW7HHUjMScXMidGvV0BE2RJV3ap2BL7G0EJirkqpccTaawbsvBO8GZaB3JjCeFBEbnEWI1P8ZoLRQ==
+react-hook-form@^7.35.0:
+  version "7.36.1"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.36.1.tgz#82a311fe8cbe75e689fd4529f083b7c983da6520"
+  integrity sha512-EbYYkCG2p8ywe7ikOH2l02lAFMrrrslZi1I8fqd8ifDGNAkhomHZQzQsP6ksvzrWBKntRe8b5L5L7Zsd+Gm02Q==
 
 react-is@^16.13.1:
   version "16.13.1"
